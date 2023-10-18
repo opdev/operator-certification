@@ -67,9 +67,8 @@ func (p *plug) Init(ctx context.Context, cfg *viper.Viper, args []string) error 
 	return nil
 }
 
-func (p *plug) BindFlags(f *pflag.FlagSet) *pflag.FlagSet {
-	flags.BindFlagDockerConfigFilePath(f)
-	return f
+func (p *plug) Flags() *pflag.FlagSet {
+	return flags.FlagSet()
 }
 
 func (p *plug) Version() semver.Version {
