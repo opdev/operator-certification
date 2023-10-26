@@ -10,7 +10,7 @@ require (
 	github.com/google/go-containerregistry v0.15.2
 	github.com/onsi/ginkgo/v2 v2.11.0
 	github.com/onsi/gomega v1.27.10
-	github.com/opdev/knex v0.0.0-20230920182201-e2ce71abde04
+	github.com/opdev/knex v0.0.0-20231018185634-ce906b15f9e8
 	github.com/openshift/api v0.0.0-20230223193310-d964c7a58d75
 	github.com/operator-framework/api v0.17.7
 	github.com/operator-framework/operator-manifest-tools v0.4.0
